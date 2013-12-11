@@ -17,6 +17,12 @@ import android.os.Environment;
 import android.util.Log;
 import android.widget.ImageView;
 
+
+/**
+ * Get images with CMYK colorspace (Images not supported by Android)
+ * @author Mario Velasco Casqueo "@MVelascoC"
+ * Date: 11/12/2013
+ */
 public class GetCMYKImage extends Activity {
 
 	private static final String URL = "http://i.imgur.com/MPSIT.jpg";
