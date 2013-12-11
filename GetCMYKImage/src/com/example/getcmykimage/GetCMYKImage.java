@@ -13,13 +13,14 @@ import magick.util.MagickBitmap;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.widget.ImageView;
 
 public class GetCMYKImage extends Activity {
 
 	private static final String URL = "http://i.imgur.com/MPSIT.jpg";
-	private final String SAVING_PATH = getExternalCacheDir().getAbsolutePath() + "/newImage.jpg";
+	private static final String SAVING_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + "/newImage.jpg"; 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
