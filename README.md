@@ -1,5 +1,9 @@
 GetCMYKImage
 ============
+Android: GetCMYKImage
+Created by: Mario Velasco Casquero
+Date: 11/12/2013
+
 
 Get images with CMYK colorspace (Images not supported by Android)
 
